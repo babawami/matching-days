@@ -1,0 +1,54 @@
+.boxing {
+  box-sizing: border-box;
+  float: left;
+
+  /* display: inline-block; */
+  /* margin: 10px; */
+}
+.boxing span{
+  float: left;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 20px;
+
+}
+
+.addconent li{
+  list-style: none;
+  display: inline-block;
+  border: 1px solid black;
+  padding: 20px;
+
+
+}
+.matching{
+  background-color: : green;
+}
+
+.mon{
+  background: blue;
+}
+
+.tues{
+  background-color: yellow;
+}
+
+.wed{
+  background-color: red;
+}
+
+.thur{
+  background-color: orange;
+}
+
+.fri{
+  background-color: pink;
+}
+
+.sat{
+  background-color: purple;
+}
+
+.sun{
+  background-color: turquoise;
+}
