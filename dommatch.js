@@ -10,6 +10,7 @@ let data={
 }
 
 
+
 displayContent.innerHTML = compileTemplate(data)
 
 
@@ -17,9 +18,14 @@ dateOne.addEventListener('change',function(){
 //  console.log(colourMatch.daylist())
 // when I click on the date it should highlight the day of the week
 
-  colourMatch.showDayOne(dateOne.value); // it shows the day of the week 
-  console.log(colourMatch.showDayOne(dateOne.value));
-  displayContent.innerHTML = compileTemplate(data);
+  colourMatch.showDayOne(dateOne.value); // it shows the day of the week
+  let data2={
+    days:  colourMatch.daylist(),
+    style: colourMatch.colour()
+  }
+  //console.log(colourMatch.showDayOne(dateOne.value));
+  displayContent.innerHTML = compileTemplate(data2);
+  console.log(displayContent.innerHTML = compileTemplate(data2))
 });
 
 dateTwo.addEventListener('change', function(){
