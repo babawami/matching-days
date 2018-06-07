@@ -403,7 +403,20 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (max-width: 550px) {
+  .addconent li{
+   display: flow-root;
+   padding:0%;
+   width: auto;
+ }
+
+ .six{
+   display: inline-block;
+   width: 50%;
+ }
+
+
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
